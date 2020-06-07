@@ -1,2 +1,2 @@
-# remote_tmeme
+# Remote Theme Test
 Testing jekyll remote theme
