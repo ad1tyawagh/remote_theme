@@ -1,1 +1,49 @@
-theme: minima
+# Site settings
+remote_theme: ad1tyawagh/ad1tyawagh.github.io
+title: Aditya Wagh
+firstname: Aditya
+secondname: Wagh
+general_email: aditya@adityawagh.ml
+academic_email: f2015382p@alumni.bits-pilani.ac.in
+description: > 
+ I want to change the world with design and engineering.
+
+author: Aditya Wagh
+logo: /assets/images/icon.png
+lang: en-US
+resume_link: https://raw.githubusercontent.com/ad1tyawagh/resume/master/aditya_resume.pdf
+baseurl: ""
+url: "https://www.adityawagh.ml/" 
+twitter_username: ad1tyawagh
+github_username: ad1tyawagh
+linkedin_username: waghaditya
+
+# Build settings 
+
+markdown: kramdown
+kramdown:
+  math_engine: katex
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+highlighter: rouge  
+sass:
+  sass_dir: _sass
+  style: compressed
+# Other options
+
+permalink: blog/:title
+
+plugins:
+- github-pages
+- jekyll-seo-tag
+- jekyll-menus
+- jekyll-remote-theme 
+- jekyll-archives
+- jekyll-compose 
+- jemoji
+- jekyll-youtube
+- jekyll-seo-tag 
+- jekyll-font-awesome-sass
+- jekyll-toc
+- jekyll-autoprefixer
