@@ -1,13 +1,10 @@
 # Site settings
-remote_theme: ad1tyawagh/ad1tyawagh.github.io
+
 title: Aditya Wagh
 firstname: Aditya
 secondname: Wagh
 general_email: aditya@adityawagh.ml
-academic_email: f2015382p@alumni.bits-pilani.ac.in
-description: > 
- I want to change the world with design and engineering.
-
+remote_theme: ad1tyawagh.github.io
 author: Aditya Wagh
 logo: /assets/images/icon.png
 lang: en-US
@@ -17,6 +14,7 @@ url: "https://www.adityawagh.ml/"
 twitter_username: ad1tyawagh
 github_username: ad1tyawagh
 linkedin_username: waghaditya
+data_dir: assets/data
 
 # Build settings 
 
@@ -28,7 +26,6 @@ kramdown:
   syntax_highlighter: rouge
 highlighter: rouge  
 sass:
-  sass_dir: _sass
   style: compressed
 # Other options
 
